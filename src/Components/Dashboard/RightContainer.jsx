@@ -13,8 +13,15 @@ const RightContainer = () => {
   ];
 
   return (
-    <div className="absolute top-[152px] left-[954px]">
-      <div className="w-full lg:w-[446px] h-[504px] bg-[#ffff] shadow-md rounded-md">
+    <div className="absolute 
+    
+    top-[152px]
+    
+    left-[954px]">
+      <div className="w-full
+    lg:mt-4 md:w-[200px]
+       
+       lg:w-[446px] h-[504px] bg-[#ffff] shadow-md rounded-md">
         <h1 className="text-2xl font-bold p-4">Network</h1>
         <div className="p-4 ">
           <ResponsiveContainer width="100%" height={400}>
@@ -38,7 +45,6 @@ const RightContainer = () => {
         </div>
       </div>
 
-      {/* Two small boxes */}
       <div className="flex flex-col lg:flex-row mt-4">
         <div className="w-full lg:w-[212px] h-[264px] bg-white shadow-lg rounded-lg mb-4 lg:mr-4 lg:mb-0">
           <h2 className="text-xl font-semibold p-4">Balance</h2>

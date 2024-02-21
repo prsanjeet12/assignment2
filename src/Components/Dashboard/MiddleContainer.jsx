@@ -4,7 +4,7 @@ import group11 from '../../assets/Group 11.png';
 import group12 from '../../assets/Group 12.png';
 import group10 from '../../assets/Group 10.png';
 import group13 from '../../assets/Group 13.png';
-import './style.css';
+import '../../Style/style.css';
 
 const AdditionalItems = () => {
   return (

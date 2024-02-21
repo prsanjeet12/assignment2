@@ -6,7 +6,8 @@ import User from '../../assets/Ellipse 1.png'
 
 const Header = () => {
   return (
-    <div className="bg-[#FFFFF] h-[72px] w-full flex items-center justify-end px-4 border-b border-[#D9DCDF]">
+    <div className="bg-[#FFFFF] h-[72px] lg:w-full md:w-[1220px] flex items-center 
+    justify-end px-4 border-b border-[#D9DCDF]">
      
       <div className='flex items-center justify-between flex-1'>
         <div className='flex items-center space-x-2'>
