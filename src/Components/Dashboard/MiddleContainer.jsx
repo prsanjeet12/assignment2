@@ -3,6 +3,7 @@ import downArrow from '../../assets/down_arrow.png';
 
 import '../../Style/style.css';
 import AdditionalItems from './AdditionalItems';
+import icon18 from '../../assets/icon18.png'
 
 
 const MiddleContainer = () => {
@@ -60,7 +61,7 @@ const MiddleContainer = () => {
                 <td className="px-4 py-2">Rendering</td>
                 <td className="px-4 py-2">KD1_00123_DPI_JK001</td>
                 <td className="px-4 py-2 flex justify-center items-center">
-                  {/* <img src={iconUrl} alt="View" className="w-6 h-6" /> */}
+                  <img src={icon18} alt="View" className="w-6 h-6" />
                 </td>
               </tr>
             ))}
