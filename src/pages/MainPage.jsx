@@ -15,7 +15,7 @@ const MainPage = () => {
       <div className="flex flex-col w-full ">
         <Header />
         {/* <Footer/> */}
-        <div className='mt-5  flex-col'> 
+        <div className='flex flex-col gap-6 lg:flex-row '> 
           <MiddleContainer className="mt-4" />
           <RightContainer/>
        

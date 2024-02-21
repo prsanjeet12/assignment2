@@ -13,15 +13,16 @@ const RightContainer = () => {
   ];
 
   return (
-    <div className="absolute 
+    <div className="
+    w-full
+    sm:p-9
     
-    top-[152px]
     
-    left-[954px]">
+    ">
       <div className="w-full
-    lg:mt-4 md:w-[200px]
+    lg:mt-4 
        
-       lg:w-[446px] h-[504px] bg-[#ffff] shadow-md rounded-md">
+       h-[504px] bg-[#ffff] shadow-md rounded-md">
         <h1 className="text-2xl font-bold p-4">Network</h1>
         <div className="p-4 ">
           <ResponsiveContainer width="100%" height={400}>
