@@ -15,13 +15,18 @@ const RightContainer = () => {
   return (
     <div className="
     w-full
-    sm:p-9
+    gap-7
+    lg:ml-[30px]
+   
+
+
+   
     
     
     ">
-      <div className="w-full
-    lg:mt-4 
-       
+      <div className="w-full 
+    lg:mt-4   lg:w-[432px]
+       mb-4
        h-[504px] bg-[#ffff] shadow-md rounded-md">
         <h1 className="text-2xl font-bold p-4">Network</h1>
         <div className="p-4 ">
@@ -46,14 +51,14 @@ const RightContainer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row mt-4">
+      <div className="flex flex-col lg:flex-row mt-4 sm:gap-7">
         <div className="w-full lg:w-[212px] h-[264px] bg-white shadow-lg rounded-lg mb-4 lg:mr-4 lg:mb-0">
           <h2 className="text-xl font-semibold p-4">Balance</h2>
           <div className="flex items-center justify-center mb-4">
             <p className="text-3xl font-bold">$</p>
             <p className="text-3xl font-bold ml-2">458</p>
           </div>
-          <div className="flex mb-4 lg:mb-0">
+          <div className="flex mb-4 sm:mt-4 lg:mb-0">
             <p className="flex-1 text-center border-r border-gray-300">Credits</p>
             <p className="flex-1 text-center">Coupon</p>
           </div>

@@ -7,7 +7,7 @@ import AdditionalItems from './AdditionalItems';
 
 const MiddleContainer = () => {
   return (
-    <div className="ml-4 relative">
+    <div className="ml-4 lg:mt-4 relative">
       <div className="w-full lg:w-[634px] h-[208px] bg-[#FFFFF] shadow-md mb-4 lg:mb-0 relative rounded-md">
         <div className='flex items-center justify-between p-4'>
           <div>
