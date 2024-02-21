@@ -10,22 +10,22 @@ const AdditionalItems = () => {
       <div className="flex-1 mb-4">
         <img src={group11} alt="" />
         <p className=''>Rendering Jobs</p>
-        <span className="font-bold text-black text-[24px]">10</span>
+        <span className="font-bold text-black text-[24px]">14</span>
       </div>
       <div className="flex-1 mb-4">
         <img src={group12} alt="" />
         <p>Waiting Jobs</p>
-        <span className="font-bold text-black text-[24px]">15</span>
+        <span className="font-bold text-black text-[24px]">14</span>
       </div>
       <div className="flex-1 mb-4">
         <img src={group10} alt="" />
         <p>Completed Jobs</p>
-        <span className="font-bold text-black text-[24px]">20</span>
+        <span className="font-bold text-black text-[24px]">14</span>
       </div>
       <div className="flex-1 mb-4">
         <img src={group13} alt="" />
         <p>Failed Jobs</p>
-        <span className="font-bold text-black text-[24px]">25</span>
+        <span className="font-bold text-black text-[24px]">14</span>
       </div>
     </div>
   );

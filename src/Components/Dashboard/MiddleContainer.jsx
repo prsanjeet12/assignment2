@@ -11,7 +11,7 @@ const MiddleContainer = () => {
       <div className="w-full lg:w-[634px] h-[208px] bg-[#FFFFF] shadow-md mb-4 lg:mb-0 relative rounded-md">
         <div className='flex items-center justify-between p-4'>
           <div>
-            <h1 className='font-medium'>Running jobs</h1>
+            <h1 className='font-medium text-[20px]'>Running jobs</h1>
           </div>
           <div className='flex items-center font-medium'>
             <p className='pr-2'>This week</p>
@@ -27,7 +27,7 @@ const MiddleContainer = () => {
       lg:w-[634px] h-[208px] bg-[#FFFFF] shadow-md mb-4 lg:mb-0 relative rounded-md">
         <div className='flex items-center justify-between p-4'>
           <div>
-            <h1 className='font-medium'>Another Section</h1>
+            <h1 className='font-medium text-[20px]'>Running Frames</h1>
           </div>
           <div className='flex items-center font-medium'>
             <p className='pr-2'>This week</p>
